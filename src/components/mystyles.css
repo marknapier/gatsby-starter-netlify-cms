@@ -1,0 +1,19 @@
+.navbar .container {
+  min-height: 5rem
+}
+
+.navbar-brand .navbar-item img {
+    max-height: 2.75rem;
+    margin-bottom: 4px;
+    width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-item {
+      align-items: flex-end;
+  }
+}
+
+body {
+  font-family: Lato, sans-serif;
+}

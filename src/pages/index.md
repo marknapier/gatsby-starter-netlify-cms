@@ -1,21 +1,21 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Beauty and nature in your front yard
+subheading: We take the guesswork out of planting a meadow garden
 mainpitch:
-  title: Why Kaldi
+  title: Why meadows matter
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Meadows are beautiful to people and provide food and shelter for wildlife. Create
+    a peaceful oasis for yourself, bring
+    birds and butterflies to your yard, and help the environment at the same time.
+    And reduce water runoff, pollution from fertilizers and pesticides, etc. etc..
+heading: Fleurio makes it easy
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Fleurio is like having a master gardener at your fingertips. If you tried to plant a garden,
+  you know. There are so many plants, each with specific needs. Some are right for your
+  region, some aren't. How do you decide which ones are best for your conditions? Our app
+  gives you the designs and directions that you need to plant with confidence.
 intro:
   blurbs:
     - image: /img/coffee.png

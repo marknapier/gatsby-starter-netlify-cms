@@ -40,11 +40,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              '#e73a42 0.5rem 0px 0px, #e73a42 -0.5rem 0px 0px',
+            backgroundColor: '#e73a42',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            fontFamily: 'Questrial',
           }}
         >
           {title}
@@ -53,11 +54,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              '#e73a42 0.5rem 0px 0px, #e73a42 -0.5rem 0px 0px',
+            backgroundColor: '#e73a42',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            fontFamily: 'Questrial',
           }}
         >
           {subheading}
@@ -75,7 +77,13 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="subtitle"
+                      style={{
+                        fontSize: '1.3em',
+                        fontWeight: '100',
+                        lineHeight: '1.5',
+                      }}
+                    >{mainpitch.description}</h3>
                   </div>
                 </div>
                 <div className="columns">

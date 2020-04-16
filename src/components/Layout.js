@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
+import './mystyles.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
@@ -46,6 +47,11 @@ const TemplateWrapper = ({ children }) => {
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
+        />
+
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lato|Questrial&display=swap"
         />
       </Helmet>
       <Navbar />
