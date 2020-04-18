@@ -9,8 +9,13 @@ class Tab extends React.Component {
   }
 
   render() {
-    return (this.props.activeTab || {}).id === this.props.id && this.props.children;
+    const activeTabId = this.props.activeTab && this.props.activeTab.id;
+    if (activeTabId === this.props.id && this.props.children) {
+      return this.props.children;
+    }
+    return (<div></div>);
   }
+
 }
 
 export default Tab;

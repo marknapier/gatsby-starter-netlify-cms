@@ -140,7 +140,7 @@ class Tabs extends Component {
                     });
                   }
                 }}
-                isActiveTab={this.state.activeTab.id === tab.id}
+                isActiveTab={(this.state.activeTab || {}).id === tab.id}
               >
                 <TabAnchorItem>{tab.title}</TabAnchorItem>
               </TabTitleItem>
@@ -148,7 +148,7 @@ class Tabs extends Component {
           </ListTabs>
 
           <ActiveTabBorder
-            activeTabElement={this.state.tabsElements[this.state.activeTab.id]}
+            activeTabElement={this.state.tabsElements[(this.state.activeTab || {}).id]}
           />
         </TabsContainer>
 
