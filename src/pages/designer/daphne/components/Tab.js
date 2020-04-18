@@ -9,7 +9,7 @@ class Tab extends React.Component {
   }
 
   render() {
-    return this.props.activeTab.id === this.props.id && this.props.children;
+    return (this.props.activeTab || {}).id === this.props.id && this.props.children;
   }
 }
 
