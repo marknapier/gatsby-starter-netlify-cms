@@ -17,7 +17,6 @@ class Tab extends React.Component {
     //  <div style={{display:this.props.example}}/>
     return (<div style={{display:'none'}}>{this.props.children}</div>);
   }
-
 }
 
 export default Tab;
