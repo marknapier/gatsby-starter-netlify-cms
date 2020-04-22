@@ -7,7 +7,7 @@ import './mystyles.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-// // put in root: gatsby-browser.js
+// // put in root: gatsby-browser.js 
 // exports.onInitialClientRender = () => {
 //   console.log("ReactDOM.render has executed ASDFASDFASDFASDFASDFASDFASDFASDF")
 // }
