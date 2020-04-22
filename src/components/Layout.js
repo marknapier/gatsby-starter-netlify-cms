@@ -7,11 +7,6 @@ import './mystyles.css'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-// // put in root: gatsby-browser.js 
-// exports.onInitialClientRender = () => {
-//   console.log("ReactDOM.render has executed ASDFASDFASDFASDFASDFASDFASDFASDF")
-// }
-
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
@@ -58,9 +53,6 @@ const TemplateWrapper = ({ children }) => {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Lato|Questrial&display=swap"
         />
-
-        <script src={withPrefix('js/three.min.js')} type="text/javascript" />
-        <script src={withPrefix('js/HelloCube.js')} type="text/javascript" />
       </Helmet>
       <Navbar />
       <div>{children}</div>
